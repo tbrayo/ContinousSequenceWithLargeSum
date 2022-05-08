@@ -41,14 +41,17 @@ public class ContinousSequenceWithLargeSum{
          	int n;
          	int[] InputArray = new int[10]; // create a memory of ana array of length 10
          
-         Scanner input = new Scanner(System.in); // initialize scanner class
-         System.out.println("Enter the number of elements in the array you want to create");
-         n = input.nextInt(); // reading the number of elements, that we what to enter 
-         System.out.println ("Enter the elements of the array:....");
+         	Scanner input = new Scanner(System.in); // initialize scanner class
+         	System.out.println("Enter the number of elements in the array you want to create");
+         	n = input.nextInt(); // reading the number of elements, that we what to enter 
+         	System.out.println ("Enter the elements of the array:....");
+		
          for (int i=0; i<n ; i++){
              InputArray[i] = input.nextInt(); // read array elements from the user
          }
+		
          System.out.println ("Array elements are:");
+		
          for (int i=0; i<n ; i++){
              System.out.println (InputArray[i]);
          };
