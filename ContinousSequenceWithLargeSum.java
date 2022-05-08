@@ -38,8 +38,8 @@ public class ContinousSequenceWithLargeSum{
 	public static void main(String[] args)
 	{
 		// allocate new array to store our integers
-         int n;
-         int[] InputArray = new int[10]; // create a memory of ana array of length 10
+         	int n;
+         	int[] InputArray = new int[10]; // create a memory of ana array of length 10
          
          Scanner input = new Scanner(System.in); // initialize scanner class
          System.out.println("Enter the number of elements in the array you want to create");
